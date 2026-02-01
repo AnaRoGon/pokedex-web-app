@@ -1,0 +1,37 @@
+@import "tailwindcss";
+@import "tailwindcss-primeui";
+
+:root {
+  text-align: center;
+}
+
+@font-face {
+  font-family: "PokemonKetchum";
+  src: url("/fonts/ketchum/ketchum.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.p-card {
+  @apply rounded-b-xl overflow-hidden border-2 border-orange-600 gap-8 mb-8 hover:-translate-y-1 p-8;
+}
+
+.p-fieldset {
+  @apply rounded-t-lg overflow-hidden border-2 border-orange-600 bg-orange-600;
+}
+
+.p-fieldset-legend {
+  @apply rounded-full border-2 border-orange-600;
+}
+
+.p-paginator {
+  @apply bg-transparent border-none;
+}
+
+.p-menubar {
+  @apply fixed w-full h-20 z-20;
+}
+
+.p-button {
+  @apply relative text-sm md:text-lg lg:text-xl shadow-amber-500 rounded-lg leading-none py-4 px-8;
+}

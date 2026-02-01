@@ -1,0 +1,222 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`PokeApp > Shoul render component properly 1`] = `
+<div>
+  <div
+    class="flex flex-col"
+  >
+    <nav>
+      <div
+        class="p-menubar p-component"
+        data-pc-name="menubar"
+        data-pc-section="root"
+      >
+        <a
+          aria-controls="pr_id_2"
+          aria-expanded="false"
+          aria-haspopup="false"
+          aria-label="Navigation"
+          class="p-menubar-button"
+          data-pc-section="button"
+          href="#"
+          role="button"
+          tabindex="0"
+        >
+          <svg
+            class="p-icon"
+            data-pc-section="popupicon"
+            fill="none"
+            height="14"
+            viewBox="0 0 14 14"
+            width="14"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              clip-rule="evenodd"
+              d="M13.3226 3.6129H0.677419C0.497757 3.6129 0.325452 3.54152 0.198411 3.41448C0.0713707 3.28744 0 3.11514 0 2.93548C0 2.75581 0.0713707 2.58351 0.198411 2.45647C0.325452 2.32943 0.497757 2.25806 0.677419 2.25806H13.3226C13.5022 2.25806 13.6745 2.32943 13.8016 2.45647C13.9286 2.58351 14 2.75581 14 2.93548C14 3.11514 13.9286 3.28744 13.8016 3.41448C13.6745 3.54152 13.5022 3.6129 13.3226 3.6129ZM13.3226 7.67741H0.677419C0.497757 7.67741 0.325452 7.60604 0.198411 7.479C0.0713707 7.35196 0 7.17965 0 6.99999C0 6.82033 0.0713707 6.64802 0.198411 6.52098C0.325452 6.39394 0.497757 6.32257 0.677419 6.32257H13.3226C13.5022 6.32257 13.6745 6.39394 13.8016 6.52098C13.9286 6.64802 14 6.82033 14 6.99999C14 7.17965 13.9286 7.35196 13.8016 7.479C13.6745 7.60604 13.5022 7.67741 13.3226 7.67741ZM0.677419 11.7419H13.3226C13.5022 11.7419 13.6745 11.6706 13.8016 11.5435C13.9286 11.4165 14 11.2442 14 11.0645C14 10.8848 13.9286 10.7125 13.8016 10.5855C13.6745 10.4585 13.5022 10.3871 13.3226 10.3871H0.677419C0.497757 10.3871 0.325452 10.4585 0.198411 10.5855C0.0713707 10.7125 0 10.8848 0 11.0645C0 11.2442 0.0713707 11.4165 0.198411 11.5435C0.325452 11.6706 0.497757 11.7419 0.677419 11.7419Z"
+              fill="currentColor"
+              fill-rule="evenodd"
+            />
+          </svg>
+        </a>
+        <ul
+          class="p-menubar-root-list"
+          data-id="pr_id_2"
+          data-pc-section="menu"
+          level="0"
+          role="menubar"
+          tabindex="0"
+        >
+          <li
+            aria-disabled="false"
+            aria-label="Home"
+            aria-posinset="1"
+            aria-setsize="2"
+            class="p-menuitem"
+            data-id="pr_id_2_0"
+            data-p-disabled="false"
+            data-p-focused="false"
+            data-p-highlight="false"
+            data-pc-section="menuitem"
+            role="menuitem"
+          >
+            <div
+              class="p-menuitem-content"
+              data-pc-section="content"
+            >
+              <a
+                aria-haspopup="false"
+                class="p-menuitem-link"
+                data-pc-section="action"
+                href="/"
+                tabindex="-1"
+              >
+                <span
+                  class="p-menuitem-icon pi pi-home"
+                  data-pc-section="icon"
+                />
+                <span
+                  class="p-menuitem-text"
+                  data-pc-section="label"
+                >
+                  Home
+                </span>
+              </a>
+            </div>
+            <ul
+              class="p-submenu-list"
+              data-id="pr_id_2"
+              data-pc-section="submenu"
+              level="1"
+              role="menu"
+              style="display: none;"
+            />
+          </li>
+          <li
+            class="p-menuitem-separator"
+            data-id="pr_id_2_separator_1_1"
+            data-pc-section="separator"
+            role="separator"
+          />
+          <li
+            aria-disabled="false"
+            aria-label="search"
+            aria-posinset="2"
+            aria-setsize="2"
+            class="p-menuitem"
+            data-id="pr_id_2_2"
+            data-p-disabled="false"
+            data-p-focused="false"
+            data-p-highlight="false"
+            data-pc-section="menuitem"
+            role="menuitem"
+          >
+            <div
+              class="p-menuitem-content"
+              data-pc-section="content"
+            >
+              <a
+                aria-haspopup="false"
+                class="p-menuitem-link"
+                data-pc-section="action"
+                href="#/search"
+                tabindex="-1"
+              >
+                <span
+                  class="p-menuitem-icon pi pi-search"
+                  data-pc-section="icon"
+                />
+                <span
+                  class="p-menuitem-text"
+                  data-pc-section="label"
+                >
+                  search
+                </span>
+              </a>
+            </div>
+            <ul
+              class="p-submenu-list"
+              data-id="pr_id_2"
+              data-pc-section="submenu"
+              level="1"
+              role="menu"
+              style="display: none;"
+            />
+          </li>
+        </ul>
+        <div
+          class="p-menubar-end"
+          data-pc-section="end"
+        >
+          <img
+            alt="logo"
+            class="mr-2 object-scale-down"
+            height="40"
+            src="data:image/svg+xml,%3csvg%20xmlns='http://www.w3.org/2000/svg'%20width='2em'%20height='2em'%20viewBox='0%200%2048%2048'%3e%3ctitle%20xmlns=''%3epokemon-home%3c/title%3e%3cpath%20fill='none'%20stroke='white'%20stroke-linecap='round'%20stroke-linejoin='round'%20d='M5.5%2035.671V35.5C5.5%2025.282%2013.783%2017%2024%2017s18.5%208.282%2018.5%2018.5v.171'/%3e%3cpath%20fill='none'%20stroke='white'%20stroke-linecap='round'%20stroke-linejoin='round'%20d='M5.561%2037.68a24.75%2024.75%200%200%201%2012.855-7.357M42.5%2037.68a24.75%2024.75%200%200%200-12.854-7.357'/%3e%3ccircle%20cx='24'%20cy='29.366'%20r='5.237'%20fill='none'%20stroke='white'%20stroke-linecap='round'%20stroke-linejoin='round'/%3e%3cpath%20fill='none'%20stroke='white'%20stroke-linecap='round'%20stroke-linejoin='round'%20d='M38.5%205.5h-29a4%204%200%200%200-4%204v29a4%204%200%200%200%204%204h29a4%204%200%200%200%204-4v-29a4%204%200%200%200-4-4'/%3e%3ccircle%20cx='24'%20cy='29.366'%20r='3.5'%20fill='none'%20stroke='white'%20stroke-linecap='round'%20stroke-linejoin='round'/%3e%3c/svg%3e"
+          />
+        </div>
+      </div>
+    </nav>
+  </div>
+  <div
+    class="fixed inset-0 -z-10 mask-t-from-5% opacity-40 bg-[url('/img/background.png')] bg-cover bg-center bg-no-repeat"
+  />
+  <div
+    class="flex flex-1 flex-row items-center justify-center text-center p-10"
+  >
+    <div
+      class="max-w-6xl space-y-10"
+    >
+      <div>
+        <h1
+          class="flex flex-col items-center text-4xl md:text-5xl lg:text-7xl font-extrabold bg-linear-to-r from-yellow-600 to-red-700 bg-clip-text text-transparent mt-25"
+        >
+          WELCOME TO THE WORLD OF
+          <div
+            class="p-5 object-scale-down"
+          >
+            <img
+              alt="logo"
+              class="mr-2 object-scale-down mt-5"
+              height="40"
+              src="/public/img/logotype.png"
+            />
+          </div>
+        </h1>
+        <h2
+          class="text-sm md:text-lg lg:text-xl m-10 font-medium text-white"
+        >
+          Ready to explore them all?
+        </h2>
+      </div>
+      <div
+        class="relative w-fit h-fit inline-block leading-5 m-10"
+      >
+        <div
+          class="absolute -inset-2 bg-linear-to-r from-red-600 to-yellow-400 rounded-lg blur opacity-30"
+        />
+        <div
+          class="animate-fade-up animation-delay-400 flex flex-col items-center gap-4 sm:flex-row sm:justify-center"
+        >
+          <button
+            class="p-button p-component p-button-lg"
+            data-pc-name="button"
+            data-pc-section="root"
+          >
+            Let's Go!
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    class="fixed bottom-0 w-full"
+  >
+    <footer
+      class="bg-orange-700 text-white text-center p-4"
+    >
+      © 2025 Pokedex App
+    </footer>
+  </div>
+</div>
+`;

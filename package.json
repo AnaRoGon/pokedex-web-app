@@ -1,0 +1,50 @@
+{
+  "name": "pokeapp",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "npm run test:only && tsc -b && vite build",
+    "lint": "eslint .",
+    "preview": "vite preview",
+    "test": "vitest",
+    "test:ui": "vitest --ui",
+    "test:only": "vitest run",
+    "coverage": "vitest run --coverage"
+  },
+  "dependencies": {
+    "@tailwindcss/vite": "^4.1.17",
+    "@tanstack/react-query": "^5.90.11",
+    "@tanstack/react-query-devtools": "^5.91.1",
+    "axios": "^1.13.2",
+    "primeicons": "^7.0.0",
+    "primereact": "^10.9.7",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0",
+    "react-router": "^7.9.6",
+    "tailwindcss": "^4.1.17",
+    "tailwindcss-primeui": "^0.6.1"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.39.1",
+    "@tanstack/eslint-plugin-query": "^5.91.2",
+    "@testing-library/dom": "^10.4.1",
+    "@testing-library/react": "^16.3.0",
+    "@types/node": "^24.10.1",
+    "@types/react": "^19.2.2",
+    "@types/react-dom": "^19.2.2",
+    "@vitejs/plugin-react-swc": "^4.2.1",
+    "@vitest/coverage-v8": "^4.0.15",
+    "axios-mock-adapter": "^2.1.0",
+    "eslint": "^9.39.1",
+    "eslint-plugin-react-hooks": "^5.2.0",
+    "eslint-plugin-react-refresh": "^0.4.24",
+    "globals": "^16.5.0",
+    "jsdom": "^27.3.0",
+    "typescript": "~5.9.3",
+    "typescript-eslint": "^8.46.3",
+    "vite": "^7.2.2",
+    "vitest": "^4.0.15"
+  }
+}

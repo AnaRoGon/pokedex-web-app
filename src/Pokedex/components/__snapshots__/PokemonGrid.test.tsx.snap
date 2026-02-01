@@ -1,0 +1,42 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`PokemonGrid > Should render the component with defaults elements if an array of pokemon names is received 1`] = `
+<div>
+  <div
+    class="inline-flex flex-col"
+  >
+    <div
+      class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 p-8 gap-8"
+    >
+      <div
+        data-testid="pokemon-grid-card"
+      >
+        pikachu
+      </div>
+      <div
+        data-testid="pokemon-grid-card"
+      >
+        bulbasaur
+      </div>
+      <div
+        data-testid="pokemon-grid-card"
+      >
+        charmander
+      </div>
+      <div
+        data-testid="pokemon-grid-card"
+      >
+        squirtle
+      </div>
+      <div
+        data-testid="pokemon-grid-card"
+      >
+        eevee
+      </div>
+    </div>
+    <div
+      data-testid="paginator"
+    />
+  </div>
+</div>
+`;

@@ -1,0 +1,136 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`PokemonDetailsCard > Should render PokemonDetailsCard 1`] = `
+<div>
+  <div
+    data-testid="custom-header"
+  />
+  <div
+    class="inline-flex flex-col md:flex-row justify-center mb-20 overflow-x-auto p-5"
+  >
+    <div
+      data-testid="pokemon-grid-card"
+    >
+      charmander
+    </div>
+    <section
+      class="rounded-lg overflow-hidden border-2 border-orange-600 mb-8 m-6"
+    >
+      <div
+        class="flex flex-col justify-content-center p-5"
+      >
+        <p
+          class="text-3xl md:text-6xl font-mono p-4 text-left "
+          data-testid="paragraph-test"
+        >
+          Pokemon Details
+        </p>
+        <div
+          aria-orientation="horizontal"
+          class="p-divider p-component p-divider-horizontal p-divider-solid p-divider-left"
+          data-pc-name="divider"
+          data-pc-section="root"
+          role="separator"
+          style="justify-content: center;"
+        >
+          <div
+            class="p-divider-content"
+            data-pc-section="content"
+          />
+        </div>
+        <div
+          class="flex gap-5"
+        >
+          <div
+            class="flex items-center text-1xl md:text-2xl font-mono mb-3 p-3 text-left gap-10"
+            data-testid="div-types-test"
+          >
+            Types:
+            <div
+              data-testid="badge"
+            />
+          </div>
+        </div>
+        <div
+          class="flex gap-3"
+        >
+          <div
+            class="flex items-center text-1xl md:text-2xl font-mono mb-3 p-3 text-left gap-5"
+          >
+            <span
+              data-testid="span-height-test"
+            >
+              Height: 
+            </span>
+            <span
+              data-testid="span-height-test-result"
+            >
+              0.6
+               m
+            </span>
+          </div>
+        </div>
+        <div
+          class="flex gap-3"
+        >
+          <p
+            class="flex items-center text-1xl md:text-2xl font-mono mb-3 p-3 text-left gap-5"
+          >
+            <span
+              data-testid="span-weight-test"
+            >
+              Weight: 
+            </span>
+            <span
+              data-testid="span-weight-test-result"
+            >
+              8.5
+               kg
+            </span>
+          </p>
+        </div>
+        <div
+          class="flex gap-3"
+        >
+          <div
+            class="flex items-center text-1xl md:text-2xl font-mono mb-3 p-3 text-left gap-5"
+            data-testid="div-abilities-test"
+          >
+            Abilities:
+             
+            <div
+              class="flex items-center gap-2"
+            >
+              <span
+                class="pi pi-star"
+                style="font-size: 2rem;"
+              />
+              <p
+                data-testid="paragraph-test-ability"
+              >
+                Blaze
+              </p>
+            </div>
+          </div>
+        </div>
+        <p
+          class="flex items-center text-1xl md:text-2xl font-mono mb-3 p-3 text-left"
+          data-testid="paragraph-stadistic-test"
+        >
+          Stadistics:
+        </p>
+        <div
+          class="flex gap-3"
+        >
+          <div
+            data-testid="meter-group"
+          />
+        </div>
+        <div
+          data-testid="button"
+        />
+      </div>
+    </section>
+  </div>
+</div>
+`;

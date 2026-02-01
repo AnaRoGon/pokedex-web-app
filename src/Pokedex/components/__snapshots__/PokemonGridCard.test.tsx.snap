@@ -1,0 +1,14 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`PokemonGridCard > should render component if usePokemonDetails return data 1`] = `
+<div>
+  <div>
+    <div
+      data-testid="fieldset"
+    />
+    <div
+      data-testid="card"
+    />
+  </div>
+</div>
+`;

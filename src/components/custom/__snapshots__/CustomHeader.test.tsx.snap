@@ -1,0 +1,13 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`CustomHeader > Shoul render component properly 1`] = `
+<div>
+  <div>
+    <h1
+      class="flex flex-col items-center text-4xl md:text-5xl lg:text-7xl font-extrabold bg-linear-to-r from-yellow-600 to-red-700 bg-clip-text text-transparent mt-25"
+    >
+      Test title
+    </h1>
+  </div>
+</div>
+`;
